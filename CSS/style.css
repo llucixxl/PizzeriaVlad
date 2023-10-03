@@ -8,4 +8,12 @@ text-decoration: none;
 list-style: none;
 scroll-behavior:smooth;
 }
-
+body {
+    background-color: #000000;
+}
+header {
+    background-color: #fff;
+}
+section {
+    color: rgb(255, 215, 0);
+}
