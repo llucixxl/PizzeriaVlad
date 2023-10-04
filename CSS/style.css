@@ -39,7 +39,6 @@ header .header {
     font-size: 24px;
     color: #111;
     font-weight: 900;
-    float: left;
     margin-left: 100px;
 }
 .telefon {
@@ -48,6 +47,5 @@ header .header {
     font-size: 24px;
     color: #111;
     font-weight: 900;
-    float: right;
     margin-right: 100px;
 }
