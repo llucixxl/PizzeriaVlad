@@ -12,21 +12,27 @@ scroll-behavior:smooth;
 body {
     background-color: #000000;
 }
-div.container {
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    background-image: url("../Poze.fundal/fundal-bun111.jpg");
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero {
+    background-color: rgb(27, 156, 103);
+    background-image: url("../Poze.fundal/fundal-bunpngg.png");
     background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: cover;
 }
 section h2,
 section h1 {
     color: rgb(255, 215, 0);
     font-family: 'Cormorant Garamond', serif;
 }
-h1.header-text {
+div.container{
     font-family: 'Rubik Wet Paint';
-    font-size: 80px;
+    font-size: 40px;
     color: #ffffff;
     font-weight: 900;
     display: block;
