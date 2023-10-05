@@ -12,19 +12,19 @@ scroll-behavior:smooth;
 body {
     background-color: #000000;
 }
-header {
-    background-color: #008670;
-    background-image: url("../Poze.fundal/image-3863.png");
-    width: 100%;
+div.container {
+    background-size: cover;
+    background-position: center;
     height: 500px;
-    border-bottom: 10px solid   rgba(194, 71, 0, 0.301);
+    background-image: url("../Poze.fundal/fundal-bun111.jpg");
+    background-repeat: no-repeat;
 }
 section h2,
 section h1 {
     color: rgb(255, 215, 0);
     font-family: 'Cormorant Garamond', serif;
 }
-header .header {
+h1.header-text {
     font-family: 'Rubik Wet Paint';
     font-size: 80px;
     color: #ffffff;
@@ -34,4 +34,5 @@ header .header {
     text-align: center;
     padding: 30px 0 0;
 }
+
 
