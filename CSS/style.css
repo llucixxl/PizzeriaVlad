@@ -119,8 +119,21 @@ main h2 {
     background-repeat: no-repeat;
     margin-top: 100px;
 }
-
-
+.grill-cartofi {
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url(/PizzeriaVlad/Poze.preparate/cartofi-wedges-edited.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.grill-pieptpui {
+    margin-top: 100px;
+}
+.grill-carnati {
+    margin-top: 100px;
+}
 
 
 
