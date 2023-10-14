@@ -138,13 +138,6 @@ main h2 {
 
 
 
-
-
-
-
-
-
-
 p.produs {
     color: rgba(255, 218, 9, 0.849);
     text-align: center;
@@ -162,25 +155,9 @@ p.cost {
     font-weight: bold;
     margin-top: -10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div.text {
-    color: rgba(255, 218, 9, 0.849);
+.gotopbtn {
+    display: flex;
+    margin-left: 50%;
+    margin-top: 50px;
+    padding-bottom: 30px;
 }
