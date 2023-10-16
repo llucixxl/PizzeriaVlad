@@ -53,6 +53,13 @@ div .maps {
     font-family: Roboto;
     font-size: 20px;
     text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+p.coord {
+    color: rgba(255, 218, 9, 0.849);
+    font-family: Roboto;
 }
 div .tel {
     color: rgba(255, 218, 9, 0.849);
@@ -67,8 +74,12 @@ div.locatie {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    margin-top: 40px;
+    margin-top: -50px;
     margin-bottom: 60px;
+}
+iframe {
+    height: 100px;
+    width: 250px;
 }
 .meniu h2 {
     color: rgba(255, 218, 9, 0.849);
