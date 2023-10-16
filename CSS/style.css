@@ -54,8 +54,6 @@ div .maps {
     font-size: 20px;
     text-decoration: underline;
     display: flex;
-    flex-direction: column;
-    padding-top: 100px;
 }
 p.coord {
     color: rgba(255, 218, 9, 0.849);
@@ -70,16 +68,27 @@ div .tel {
 }
 div.locatie {
     display: flex;
-    flex: initial;
     justify-content: center;
     align-items: center;
     gap: 100px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+div.icons-data {
     margin-top: -50px;
     margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 230px;
 }
-iframe {
-    height: 100px;
-    width: 250px;
+.icon-locatie {
+    color:#ffffff;
+    font-size: 60px;
+}
+.icon-tel {
+    color: #ffffff;
+    font-size: 60px;
 }
 .meniu h2 {
     color: rgba(255, 218, 9, 0.849);
