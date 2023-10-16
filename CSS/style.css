@@ -47,6 +47,29 @@ main h2 {
     padding: 30px 0 0;
     width: 100%;
 }
+div .maps {
+    color: rgba(255, 218, 9, 0.849);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    text-decoration: underline;
+}
+div .tel {
+    color: rgba(255, 218, 9, 0.849);
+    text-align: center;
+    font-family: Roboto;
+    text-decoration: underline;
+    font-size: 20px;
+}
+div.locatie {
+    display: flex;
+    flex: initial;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
 .meniu h2 {
     color: rgba(255, 218, 9, 0.849);
     text-align: center;
@@ -134,10 +157,6 @@ main h2 {
 .grill-carnati {
     margin-top: 100px;
 }
-
-
-
-
 p.produs {
     color: rgba(255, 218, 9, 0.849);
     text-align: center;
@@ -157,7 +176,16 @@ p.cost {
 }
 .gotopbtn {
     display: flex;
-    margin-left: 50%;
+    margin-left:50%;
     margin-top: 50px;
     padding-bottom: 30px;
 }
+
+
+
+
+
+
+
+
+
